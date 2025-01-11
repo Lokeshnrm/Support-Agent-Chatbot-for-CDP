@@ -1,0 +1,22 @@
+/cdp-support-chatbot
+|-- /src
+|   |-- /main
+|   |-- /java
+|       |-- com.cdp.chatbot
+|           |-- ChatbotApplication.java
+|           |-- ChatController.java
+|           |-- DocumentIndexer.java
+|           |-- DocumentSearcher.java
+|           |-- ResponseFormatter.java
+|           |-- CDPComparator.java
+|      |-- /resources
+|       |-- application.properties
+|       |-- /data
+|           |-- SegmentDocs.txt
+|           |-- mparticleDocs.txt
+|           |-- LyticsDocs.txt
+|           |-- ZeotapDocs.txt
+|-- /template (if using a web UI)
+|-- /static (if using a web UI)
+|--README.md
+|-- pom.xml
