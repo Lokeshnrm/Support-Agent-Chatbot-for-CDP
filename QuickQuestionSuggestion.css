@@ -1,0 +1,22 @@
+.quick-questions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.quick-questions button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.quick-questions button:hover {
+    background-color: #0056b3;
+}
